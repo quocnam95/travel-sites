@@ -470,6 +470,17 @@ img{
         max-width: 976px;
     }
 
+.wrapper--b-margin{
+        margin-bottom:1rem;
+    }
+
+@media (min-width:530px) {
+
+.wrapper--b-margin{
+        margin-bottom: 3.875rem
+    }
+  }
+
 .wrapper .wrapper {
         padding-left: 0;
         padding-right: 0;
@@ -547,7 +558,7 @@ img{
     }
 
 .row{
-
+    
    
     /* .clear-me{
         clear: both;
@@ -574,8 +585,16 @@ img{
             float: left;;
             width:33.333%;
         }
+
+        .row__medium-4--large{
+            width:37%;
+        }
         .row__medium-8 {
             float: left;;
             width:66.666%;
+        }
+        .row__medium-8--smaller {
+            float: left;;
+            width:63%;
         }
   }
