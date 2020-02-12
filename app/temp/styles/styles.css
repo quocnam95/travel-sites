@@ -461,7 +461,7 @@ img{
     overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 1200px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -590,7 +590,7 @@ img{
             width:37%;
         }
         .row__medium-8 {
-            float: left;;
+            float: left;
             width:66.666%;
         }
         .row__medium-8--smaller {
